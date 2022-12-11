@@ -9,11 +9,19 @@ element.removeChild(again)
 
 dp.addEventListener('click', showlogout)
 function showlogout(){
-  if(tooltip.style.opacity=="0"){
-    tooltip.style.opacity = "1";
+ 
+  
+ 
+  
+  if(tooltip.style.opacity=="1"){
+    tooltip.style.opacity = "0";
+    dp.classList.add("dpbutton")
+dp.classList.remove("dpbuttonclick")
   } 
  else{
-    tooltip.style.opacity = "0";
+    tooltip.style.opacity = "1";
+    dp.classList.remove("dpbutton")
+dp.classList.add("dpbuttonclick")
   }
  
 }
