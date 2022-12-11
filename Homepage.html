@@ -12,108 +12,12 @@
       rel="stylesheet"
     />
     <link rel="icon" href="dClogo.png" />
+    <link rel="stylesheet" href="droidCop.css" />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-      .droidCop {
-        font-family: "Orbitron", sans-serif;
-        font-size: 30px;
-        font-weight: 100;
-        color: #66fcf1;
-        padding-left: 50px;
-      }
-      .tagline {
-        font-family: "Roboto", sans-serif;
-        font-size: 10px;
-        color: white;
-        text-transform: uppercase;
-        font-variant-caps: small-caps;
-        letter-spacing: 0.35em;
-        margin-top: 9px;
-        padding-left: 50px;
-      }
-      hr {
-        display: block;
-        height: 1px;
-        border: 0;
-        border-top: 1px solid #ccc;
-        margin: 1em 0;
-        padding: 0;
-        border-color: #66fcf1;
-      }
-      .login {
-        font-family: "Orbitron", sans-serif;
-        font-size: 35px;
-        font-weight: 100;
-        color: white;
-        padding-left: 100px;
-        padding-top: 80px;
-        margin-bottom: 50px;
-      }
-
-      .signin {
-        margin-left: 100px;
-        margin-top: 40px;
-        border-width: 2px;
-        border-color: white;
-        background-color: transparent;
-        font-size: 20px;
-        font-family: "Roboto", sans-serif;
-        letter-spacing: 7%;
-        padding-left: 20px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-right: 20px;
-        color: white;
-        width: 500px;
-        display: block;
-      }
-      .loginbutton {
-        background-color: #66fcf1;
-        color: 000208;
-        font-size: 22px;
-        font-weight: 450;
-        font-family: "Orbitron", sans-serif;
-        margin-top: 70px;
-        margin-left: 100px;
-        width: 500px;
-        letter-spacing: 7%;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-right: 2px;
-      }
-      .arr {
-        color: #afafaf;
-        font-family: "Roboto", sans-serif;
-        letter-spacing: 7%;
-        font-size: 12px;
-        display: block;
-        padding-left: 20px;
-        margin-top: 40px;
-      }
-      .et108 {
-        font-family: "Orbitron", sans-serif;
-        font-size: 17px;
-        color: #66fcf1;
-        display: block;
-        padding-left: 20px;
-        margin-top: 10px;
-      }
-
-      body {
-        overflow: auto;
-      }
-      html {
-        overflow: scroll;
-        overflow-x: hidden;
-      }
-      ::-webkit-scrollbar {
-        width: 0px;
-      }
-      ::-webkit-scrollbar-thumb {
-        background: #ff0000;
-      }
     </style>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="index.js"></script>
   </head>
   <body>
     <div class="w-full h-screen" style="background-image: url('BG920.png')">
@@ -137,13 +41,14 @@
           <p class="tagline">An initiative towards faster forensics</p>
         </div>
       </nav>
-      <hr />
+      <div class="hr"></div>
 
       <div class="flex items-start justify-between flex-col p-6">
         <p class="login">LOGIN</p>
-        <form action="">
-          <input type="textbox" class="signin" placeholder="E-mail" />
+        <form action="dcoperation.html">
+          <input type="email" class="signin" placeholder="E-mail" />
           <input type="textbox" class="signin" placeholder="Password" />
+
           <button class="loginbutton">Login</button>
         </form>
       </div>
