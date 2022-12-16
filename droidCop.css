@@ -184,25 +184,25 @@
     background: #ff0000;
   }
  .tooltip{
-    font-family: Roboto;
+  font-family: Roboto;
+  font-weight: 500;
   position: absolute;
-  top:68px;
-  right: 4.5px;
+  top: 67px;
+  right: 3.75px;
   background-color: #66fcf1;
   color: #000208;
-  padding-top: 4px ;
+  padding-top: 4px;
   padding-bottom: 4px;
   padding-left: 8px;
   padding-right: 8px;
   border-radius: 2px;
   font-size: 12px;
-margin-bottom: 50px;
+  margin-bottom: 50px;
   opacity: 0;
   transition: opacity 0.15s;
-
-
   }
-  .dp .tooltip:hover {
+
+  .tooltip:hover {
     background-color: white;
     color: #000208;
   }
