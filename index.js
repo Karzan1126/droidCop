@@ -9,9 +9,6 @@ element.removeChild(again)
 
 dp.addEventListener('click', showlogout)
 function showlogout(){
- 
-  
- 
   
   if(tooltip.style.opacity=="1"){
     tooltip.style.opacity = "0";
